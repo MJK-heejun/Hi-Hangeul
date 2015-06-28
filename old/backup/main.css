@@ -1,0 +1,10 @@
+*{ margin:0; padding:0px;}
+
+#menu{ width: 100%; background-color: black; position: fixed;}
+
+
+#yellow{ padding-top: 100px; height: 1000px; background-color: yellow;}
+#red{height: 1000px; background-color: red;}
+#blue{height: 1000px; background-color: blue;}
+#white{height: 1000px; background-color: white;}
+#black{height: 1000px; background-color: black;}

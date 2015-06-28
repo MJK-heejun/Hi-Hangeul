@@ -1,0 +1,79 @@
+*{ margin:0; padding:0px; }
+
+body{background-color: #FFFFFF; }
+/*body {margin-left:auto; margin-right:auto; width: 70%;}*/
+
+img { border: 0; }
+
+
+
+#menu{
+   float: left;
+   margin-left: 30%;
+   margin-right: 30%;
+   width: 100%;
+
+   padding: 10px;
+   height: 30px;
+   /*border: solid;*/
+}
+
+#menu img{
+   float: left;
+   padding-left: 10px;
+}
+
+#menu2{
+   float: left;
+   margin-left: 10%;
+   /*margin-right: 40%;*/
+   width: 984px;
+/*   border: solid;*/
+}
+
+#content{
+   float: left;
+   margin-left: 12%;
+/*   margin-right: 40%;*/
+   padding: 10px;
+}
+
+/*** index.html ***/
+#first{ float: left; height: 440px; width: 100%; /*border: solid;*/}
+   #first .left{float: left; height: 100%; width: 253px; padding-right: 30px; /*border: solid;*/} 
+      #first .left .a{padding-bottom: 190px;}
+   #first .right{float: left; height: 100%; } 
+#second{ float: left; height: 640px; width: 100%; /*bordWer: solid; border-width: 1px;*/}
+   #second .left{float: left;  height:100%; width: 394px; padding-right: 30px;/*border: solid; border-width: 1px;*/}
+   #second .right{ float: left; height:100%; width: 528px; /*border: solid; border-width: 1px;*/}
+      #second .right .a{margin-bottom: 20px;}
+      #second .right .c{margin-top: 10px;}
+#third{ float: left; height: 300px; width: 100%; padding-top: 20px;}
+   #third .left{float: left; padding-right: 20px;}
+   #third .right{float: left; height: 100%; width: 187px; }
+      #third .right .a{ margin-top: -20px; padding-left: 70px;}
+   #third .rright{float: left; height: 400px; width: 221px;}
+   #third .rright img{ margin-top: -120px; padding-left: 50px;}
+#footer{ float: left;}
+
+/*** about_us.html ***/
+.about_us_content{ margin-left: 12%; width: 800px; height: 440px; padding: 10px;}
+.about_us_content div{ padding: 10px;}
+   #about_us_left_first{ float: left; width: 44%; font-family: 'Tahoma'; font-size: 10pt; }
+   #about_us_right_first{float: left; width: 44%; font-family:'Malgun Gothic'; font-size: 9pt;}
+   #about_us_left_second{float: left; width: 44%; font-family:'Malgun Gothic'; font-size: 9pt;}
+   #about_us_right_second{float: left; width: 44%; font-family: 'Tahoma'; font-size: 10pt;}
+
+/*** whos_in.html ***/
+#content div.whos_in{ padding-top: 40px; padding-bottom: 60px;}
+
+/*** dday.html ***/
+#dday_first{ padding-top: 10px; height: 1040px;}
+   #dday_first div{ float: left; }
+   #dday_first div:last-child{ width: 350px; height: 1023px; margin-left: 20px;}
+   #dday_first div p{ font-family: 'Tahoma'; font-size: 10pt;}
+       .title{text-align: center; font-weight: bold;}
+#dday_second{ margin-top: 30px; width: 353px; }
+#dday_third{ margin-top: 60px; width: 450px; height: 400px; }
+
+/*** get_involved.html ***/

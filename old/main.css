@@ -1,0 +1,53 @@
+*{ margin:0; padding:0px; }
+
+body{background-color: #FFFFFF;}
+body > div{margin-left:auto; margin-right:auto; width: 900px;}
+
+
+img { border: 0; }
+#menu{ left: 50%; margin-left: -522px; position: fixed; width: 1045px; height: 168px;  background-image:url('img/menu_bar_new.png'); }
+
+   #menu img{padding-top: 35px; padding-right: 10px;}
+   #button_dday{padding-left: 75px;}
+#button_intro{ padding-left: 100px;}
+
+#intro{ padding-top: 100px; width: 900px; height: 963px; background-color: #F25941;}
+   #movie_clip{width: 853px; height: 480px; border-style: solid; border-width: 1px; margin-top: 100px; }
+   #count_downs{ margin-top: 6px; margin-left: 500px; }
+      #count_down1{font-family: impact; color: white; float: left; width: 200px; height: 200px; background-color: black; }
+	     #count_down1_title{ font-size: 6px; text-align: center;}
+		 #count_down1_left{ width: 50%; height: 100%; float: left; text-align: right; }
+		 #count_down1_left p{ padding-right: 5px;}
+            #day1{ font-size: 24px;  }
+            #hr1{ font-size: 10px; }
+            #min1{ font-size: 10px; }
+            #sec1{ font-size: 10px; }
+		 #count_down1_right{ width: 50%; height: 100%; float: left;}
+            #day1_back{ font-size: 10px;  margin-top: 14px;}
+            #hr1_back{ font-size: 8px; margin-top: 4px;}
+            #min1_back{ font-size: 8px; margin-top: 3px;}
+            #sec1_back{ font-size: 8px; margin-top: 3px;}
+
+      #count_down2{ float: left; width: 161px; height: 212px; border-style: solid; border-width: 1px; margin-left: 6px;}
+
+#cause{width: 900px; height: 1000px; background-color: #FFC27D;}
+   #cause_left{ float: left; height: 100%; width: 50%;}
+      #cause_left_textbox{ width: 500px; height: 500px; border-style: solid; border-width: 1px; margin-left: 40px; margin-top: 168px;}
+   #cause_right{ float: left; width: 50%; height: 100%;}
+      #cause_right_textbox{ width: 394px; height: 572px; background-image:url('img/side_text_box_inverted.png'); margin-top: 168px; margin-left: 158px;} 
+
+#dday{width: 900px; height: 1000px; background-color: #7D9AFF;}
+   #dday_left{ float: left; height: 100%; width: 50%;}
+      #dday_left_textbox{ width: 394px; height: 572px; background-image:url('img/side_text_box.png'); margin-top: 168px; margin-left: -101px;}
+   #dday_right{ float: left; width: 50%; height: 100%;}
+      #dday_right_textbox{ width: 500px; height: 500px; border-style: solid; border-width: 1px; margin-left: -90px; margin-top: 168px;}
+
+#involved{width: 900px; height: 1000px; background-color: #252525;}
+   #involved_left{ float: left; width: 50%; height: 100%; }
+      #button_twitter{ float: left; margin-left: -61px; margin-top: 168px;}
+	  #button_facebook{ float: left; margin-left: -61px; margin-top: 10px;}
+      #involved_left_textbox{ float: left; width: 298px; height: 300px; border-style: solid; border-width: 1px; border-color: white; margin-left: 40px; margin-top: 0px;}
+   #involved_right{ float: left; width: 50%; height: 100%;}
+      #involved_right_poster{ width: 300px; height: 485px; margin-top: 168px; margin-left: 0px;}
+
+#test{ font-size: 10px;}
